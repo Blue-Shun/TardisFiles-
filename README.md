@@ -27,4 +27,4 @@ Fubbo#0487 Skapple#1869
 To make a bug report simply click *issues* check if the issuse is there. If yes read through it and see if it is being resolved. If no, click create *New issuse* then click the first *get started* button. This will take you to a bug report template, fill out the form and press *submit*. Then wait for me to check the bug, and then try to resolve it.
 
 # Making a suggestion
-This is the same as making a bug report excepct once you click *new issue* you need to click the second *get started* button. Then fill out the form and wait to see if a i aprove of your idea.
+This is the same as making a bug report excepct once you click *new issue* you need to click the second *get started* button. Then fill out the form and wait to see if i aprove of your idea.
