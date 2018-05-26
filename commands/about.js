@@ -9,7 +9,7 @@
           timestamp: new Date(),
           footer: {
             icon_url: message.author.avatarURL,
-            text: `${message.author.username} | TARDIS Files`
+            text: `${message.author.username} | TARDIS Files ${process.env.version}`
           }
         }
       });
