@@ -34,7 +34,7 @@ client.on("ready", i => {
         name: "I'm Awake!",
         icon_url: client.user.avatarURL
       },
-      description: `Im online and ready to go. \nThank you for rebooting/booting me up. \nIm currently in __**V1.6.6**__\nCurrently in ${client.guilds.size} servers`,
+      description: `Im online and ready to go. \nThank you for rebooting/booting me up. \nIm currently in __**${process.env.version}**__\nCurrently in ${client.guilds.size} servers`,
       timestamp: new Date(),
       footer: {
         icon_url: client.user.avatarURL,
