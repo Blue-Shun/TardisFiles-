@@ -13,6 +13,7 @@ client.on('ready', () => {
   console.log(`Currently in ${client.guilds.size} server(s)!`);
 });
 
+
 client.on('ready', () => {
 var list = client.guilds.array().sort();
 		console.log("Server names: " + list);
@@ -21,6 +22,10 @@ var list = client.guilds.array().sort();
 client.on("ready", () => {
    client.user.setActivity(`tf!help | watching ${client.guilds.size} servers`);
 });
+
+setInterval(function() {
+client.user.setActivity(`tf!help | watching ${client.guilds.size} servers`);    
+}, 3000);
 
 client.on("ready", i => {
   client.guilds.get("439455474031656960").channels.get("439477840266919957").send({embed: {
