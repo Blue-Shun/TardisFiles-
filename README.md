@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <body style="background-color:#ffff66;">
+<a href="https://discordbots.org/bot/444747925008941056" >
+  <img src="https://discordbots.org/api/widget/444747925008941056.svg" alt="TARDIS Files" />
+</a>
 <section>
 <h1 style="color:Blue";>TARDIS Files</h1>
 </section>
