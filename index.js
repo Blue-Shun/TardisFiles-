@@ -61,5 +61,9 @@ client.on("message", message => {
         strutils.log(`${message.author.username} (${message.guild.id} / ${message.guild.name}) > The command "${config.prefix}${command}" couldn't be found!`);
     }
   });
+const dbl = require("dblposter");
+const DBLPoster = new dbl(process.env.api_key);
 
+// Then, depending on what you called your client
+DBLPoster.bind(client);
 client.login(process.env.token);
