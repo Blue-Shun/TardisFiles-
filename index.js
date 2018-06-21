@@ -28,7 +28,7 @@ client.user.setActivity(`tf!help | watching ${client.guilds.size} servers`);
 }, 3000);
 
 client.on("ready", i => {
-  client.guilds.get(proccess.env.server_id).channels.get(proccess.env.log_id).send({embed: {
+  client.guilds.get(process.env.server_id).channels.get(process.env.log_id).send({embed: {
       color: 15215,
       author: {
         name: "I'm Awake!",
