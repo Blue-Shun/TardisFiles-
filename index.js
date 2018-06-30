@@ -55,7 +55,6 @@ client.on("message", message => {
     try {
       let commandFile = require(`./commands/${command}.js`);
       commandFile.run(client, message, args);
-      message.delete();
     } catch (err) {
         console.log(err);
         strutils.log(`${message.author.username} (${message.guild.id} / ${message.guild.name}) > The command "${config.prefix}${command}" couldn't be found!`);
