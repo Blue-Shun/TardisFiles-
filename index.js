@@ -60,4 +60,16 @@ client.on("message", message => {
         strutils.log(`${message.author.username} (${message.guild.id} / ${message.guild.name}) > The command "${config.prefix}${command}" couldn't be found!`);
     }
   });
+
+const DBL = require("dblapi.js");
+const dbl = new DBL(process.env.token_db, client);
+
+// Optional events
+dbl.on('posted', () => {
+  console.log('Server count posted!');
+})
+
+dbl.on('error', e => {
+ console.log(`Oops! ${e}`);
+})
 client.login(process.env.token);
