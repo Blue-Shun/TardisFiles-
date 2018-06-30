@@ -60,7 +60,7 @@ client.on("message", message => {
         strutils.log(`${message.author.username} (${message.guild.id} / ${message.guild.name}) > The command "${config.prefix}${command}" couldn't be found!`);
     }
   });
-
+setInterval(function() {
 const DBL = require("dblapi.js");
 const dbl = new DBL(process.env.token_db, client);
 
@@ -72,4 +72,5 @@ dbl.on('posted', () => {
 dbl.on('error', e => {
  console.log(`Oops! ${e}`);
 })
+}, 3000);
 client.login(process.env.token);
