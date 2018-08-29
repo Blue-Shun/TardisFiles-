@@ -38,4 +38,4 @@ To make a bug report simply click *issues* check if the issue is there. If yes r
 This is the same as making a bug report except once you click *new issue* you need to click the second *get started* button. Then fill out the form and wait to see if I approve of your idea.
 
 # Online presence 
-There are several ways to see us online. One is through git-hub, which you're obviously on. The second is to join our discord server, https://discord.gg/2X97BxG. The third is to visit our bot page: https://discordbots.org/bot/444747925008941056. (the bot is currently waiting approval so access will be denied.)
+There are several ways to see us online. One is through git-hub, which you're obviously on. The second is to join our discord server, https://discord.gg/2X97BxG. The third is to visit our bot page: https://discordbots.org/bot/444747925008941056.
